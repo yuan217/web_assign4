@@ -299,10 +299,11 @@ time{
 	  display: -webkit-flex;
 	  display: flex;
 	  margin-bottom: 10px;
+	  justify-content: space-between;
 	}
 
 	.icon img {
-	  width: 60px;
+	  max-width: 60px;
 	  margin-bottom: 10px;
 	}
 
@@ -376,7 +377,7 @@ time{
 	.arti-with-pic {
 	  display: inline-block;
 	  width: 50%;
-	  padding: 20px 20px 5px 5px;
+	  padding: 20px 5px 20px 5px;
 	}
 
 	.img img {
@@ -395,9 +396,3 @@ time{
 	}
 
 }
-
-
-
-
-
-
