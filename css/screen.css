@@ -213,6 +213,9 @@ time{
 		text-align: center;
 		border-right: .5px solid rgb(217,239,236);
 	}
+	#nd-nav: last-child{
+		border-right: 0px;
+	}
 
 	.option > h3{
 		padding: 5px;
@@ -342,7 +345,6 @@ time{
 	  height: 248px;
 	  background-image: url("../img/discuss01.jpg");
 	  background-size: cover;
-
 	}
 
 	.title-box {
@@ -396,3 +398,109 @@ time{
 	}
 
 }
+
+@media screen and (max-width: 480px){
+
+	body{
+		position: relative;
+		max-width: 350px;
+		margin: 0 auto;	
+		margin-top: 10px;
+	}
+
+	#nav-info{
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.icon img{
+		max-width: 60px;
+		margin: 10px 0 10px 0; 
+		justify-content:center;
+	}
+
+	ul{
+		display: flex;
+		flex: auto;
+		flex-direction: row;
+		justify-content: center;
+		font-size: 1.4rem;
+		list-style-type: none;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	li{
+		display: flex;
+		margin: 10px 5px 10px 5px;
+
+	}
+
+	aside{
+		display: none;
+	}
+
+	.option > p{
+		display: none;
+	}
+
+	.pic {
+	  display: -webkit-flex;
+	  display: flex;
+	  -webkit-flex-flow: row wrap;
+	  background-image: url("../img/discuss01.jpg");
+	  background-size: cover;
+	  height: 233px;
+	  width: 100%;
+	}
+
+	.title-box {
+	  font-size: 1rem;
+	  line-height: 1rem;
+	  text-align: left;
+	  align-self: flex-end;
+	  width: 100%
+	}
+
+	#titleA {
+	  display: inline-block;
+	  width: 100%;
+	  padding: 10px;
+	  background-color: #ffffff;
+	}
+
+	#titleB{
+	  display: inline-block;
+	  width: 100%;
+	  padding: 10px;
+	  background-color: #000000;
+	  color: #ffffff;
+	}
+
+	#nd-nav{
+		display: none;
+	}
+
+	#archives {
+	  display: -webkit-flex;
+	  display: flex;
+	  -webkit-flex-flow: row wrap;
+	}
+
+	.arti-with-pic{
+		display: inline-block;
+		margin: 20px 0px 20px 0px;
+	}
+
+	.img > img{
+		width: 350px;
+	}
+
+}
+
+
+
+
+
+
