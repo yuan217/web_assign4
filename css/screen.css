@@ -58,7 +58,7 @@ time{
 	.option{
 		position: flex;
 		display: inline-block;
-		flex: auto;
+		flex: 25%;
 		background-color: rgb(239,248,247);
 		color: rgb(96,190,174);
 		padding: 10px;
@@ -71,6 +71,10 @@ time{
 		flex-direction: row;
 		justify-content:space-between;
 		display: flex;
+	}
+
+	.option:last-of-type{
+		border-right: none;
 	}
 
 	#wrapper{
@@ -155,8 +159,10 @@ time{
 		margin: 10px;
 	}
 
-	img{
+	img {
+		display: block;
 		width: 100%;
+		height: auto;
 	}
 
 }
@@ -205,7 +211,7 @@ time{
 	.option{
 		position: flex;
 		display: inline-block;
-		flex: auto;
+		flex: 25%;
 		background-color: rgb(239,248,247);
 		color: rgb(96,190,174);
 		padding: 10px;
@@ -213,8 +219,9 @@ time{
 		text-align: center;
 		border-right: .5px solid rgb(217,239,236);
 	}
-	#nd-nav: last-child{
-		border-right: 0px;
+
+	.option:last-of-type{
+		border-right: none;
 	}
 
 	.option > h3{
@@ -274,11 +281,13 @@ time{
 
 	.arti-with-pic{
 		width: 25%;
-		margin: 10px;
+		padding: 10px;
 	}
 
-	img{
+	img {
+		display: block;
 		width: 100%;
+		height: auto;
 	}
 
 	#nav-info{
