@@ -17,11 +17,11 @@ body{
 	font-family: ff-tisa-web-pro, Georgia, sans-serif;
 }
 
-.option h3{
+.option > h3{
 	font-size: 2rem;
 }
 
-.option p{
+.option > p{
 	font-size: 1rem;
 }
 
@@ -134,12 +134,12 @@ time{
 		color: rgb(87,87,87);
 	}
 
-	aside h5{
+	aside > h5{
 		font-size: 1rem;
 		text-transform: uppercase;
 	}
 
-	aside p{
+	aside > p{
 		font-size: .8rem;
 		padding-right: 100px;
 	}
@@ -214,7 +214,7 @@ time{
 		border-right: .5px solid rgb(217,239,236);
 	}
 
-	.option h3{
+	.option > h3{
 		padding: 5px;
 		margin: 10px;
 	}
@@ -255,7 +255,7 @@ time{
 		text-align: right;
 	}
 
-	#nd-nav p{
+	#nd-nav > p{
 		display: none;
 	}
 
